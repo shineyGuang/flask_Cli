@@ -75,7 +75,7 @@ class DevConfig(Config):
     # DB_REDIS_HOST = "123.57.202.175"
     # DB_REDIS_DB = 1  # sso_db and current_data
     # DB_REDIS_DB2 = 5  # permission_db
-    # DB_REDIS_PASSWORD = 'xujunkai'
+    # DB_REDIS_PASSWORD = 'shiney_zhao'
     # REDIS_POOL = redis.ConnectionPool(host=DB_REDIS_HOST, port=DB_REDIS_PORT, password=DB_REDIS_PASSWORD,
     #                                   db=DB_REDIS_DB, max_connections=10,
     #                                   decode_responses=True)
