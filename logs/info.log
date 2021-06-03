@@ -1,0 +1,119 @@
+log 2021-06-03 19:46:36,463 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-03 19:46:36,463 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:36,668 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-03 19:46:36,668 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:36,673 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-03 19:46:36,674 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:36,677 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-03 19:46:36,678 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:36,798 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-03 19:46:36,799 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:36,811 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-03 19:46:36,812 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:36,814 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-03 19:46:36,814 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:44,985 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-03 19:46:44,985 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:44,985 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-03 19:46:44,985 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:44,985 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-03 19:46:44,985 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:55,029 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-03 19:46:55,029 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:55,029 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-03 19:46:55,029 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:55,045 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-03 19:46:55,045 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:55,045 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-03 19:46:55,045 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:55,060 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-03 19:46:55,060 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:55,076 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-03 19:46:55,076 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:46:55,076 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-03 19:46:55,076 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:14,547 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-03 19:48:14,547 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:14,609 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-03 19:48:14,609 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:14,609 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-03 19:48:14,609 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:14,609 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-03 19:48:14,609 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user_auth`
+log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:14,640 [sqlalchemy.engine.base.Engine] [INFO] :20: ROLLBACK
+log 2021-06-03 19:48:14,640 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user_info`
+log 2021-06-03 19:48:14,640 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:14,656 [sqlalchemy.engine.base.Engine] [INFO] :20: ROLLBACK
+log 2021-06-03 19:48:14,656 [sqlalchemy.engine.base.Engine] [INFO] :20: 
+CREATE TABLE user_auth (
+	update_time DATETIME DEFAULT now() COMMENT '修改时间', 
+	create_time DATETIME COMMENT '创建时间', 
+	status SMALLINT, 
+	id INTEGER NOT NULL AUTO_INCREMENT, 
+	user_id VARCHAR(8) NOT NULL COMMENT '工号', 
+	account_name VARCHAR(10) NOT NULL COMMENT '姓名', 
+	password VARCHAR(100), 
+	role_id INTEGER COMMENT '用户角色id', 
+	PRIMARY KEY (id)
+)
+
+
+log 2021-06-03 19:48:14,656 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:15,265 [sqlalchemy.engine.base.Engine] [INFO] :20: COMMIT
+log 2021-06-03 19:48:15,281 [sqlalchemy.engine.base.Engine] [INFO] :20: 
+CREATE TABLE user_info (
+	update_time DATETIME DEFAULT now() COMMENT '修改时间', 
+	create_time DATETIME COMMENT '创建时间', 
+	status SMALLINT, 
+	role_row_data_id INTEGER COMMENT '角色and行数据', 
+	id INTEGER NOT NULL AUTO_INCREMENT, 
+	phone VARCHAR(12) COMMENT '手机号', 
+	identity_code VARCHAR(18) COMMENT '身份证号', 
+	gender VARCHAR(1), 
+	real_name VARCHAR(24) COMMENT '真实姓名', 
+	birthday DATE COMMENT '出生日期', 
+	email VARCHAR(64) COMMENT '邮箱', 
+	educational_type VARCHAR(1) COMMENT '教育程度', 
+	politic_countenance VARCHAR(2) COMMENT '政治面貌', 
+	is_marriage VARCHAR(1) COMMENT '婚否', 
+	account_id INTEGER COMMENT '用户id', 
+	PRIMARY KEY (id)
+)
+
+
+log 2021-06-03 19:48:15,281 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:15,790 [sqlalchemy.engine.base.Engine] [INFO] :20: COMMIT
+log 2021-06-03 19:48:21,110 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-03 19:48:21,110 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:21,126 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-03 19:48:21,126 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:21,126 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-03 19:48:21,126 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user_auth`
+log 2021-06-03 19:48:21,157 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-03 19:48:21,157 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user_info`
+log 2021-06-03 19:48:21,157 [sqlalchemy.engine.base.Engine] [INFO] :20: {}

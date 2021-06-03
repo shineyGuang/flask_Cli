@@ -1,0 +1,6 @@
+/migrations/
+/venv
+/models/robot
+/models/users
+/server/validators/user_form_manage
+
