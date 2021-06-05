@@ -17,8 +17,10 @@ Migrate(app, db)
 manager.add_command("db", MigrateCommand)
 
 if __name__ == '__main__':
-    print(f"""
-                ------Zcg_Server启动成功-----
-                * Running on http://{host}:{port}/
-                """)
+    print(
+        f"""
+                    ------Zcg_Server启动成功-----
+                    * Running on http://{host}:{port}/
+                    """
+    )
     manager.run()

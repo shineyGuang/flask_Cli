@@ -1,0 +1,7 @@
+baseform 2021-06-05 18:11:35,604 [server.validators.base.baseform] [ERROR] :40: {'username': ['用户名长度必须大于5且小于18']}
+registerForm 2021-06-05 18:18:38,335 [server.validators.user_form_manage.register_form.registerForm] [ERROR] :40: 手机号重复注册
+registerForm 2021-06-05 18:18:38,338 [server.validators.user_form_manage.register_form.registerForm] [ERROR] :40: 邮箱号重复注册
+baseform 2021-06-05 18:18:38,338 [server.validators.base.baseform] [ERROR] :40: {'id': ['手机号重复注册'], 'email': ['邮箱号重复注册']}
+registerForm 2021-06-05 18:20:05,399 [server.validators.user_form_manage.register_form.registerForm] [ERROR] :40: 工号重复注册
+registerForm 2021-06-05 18:20:05,403 [server.validators.user_form_manage.register_form.registerForm] [ERROR] :40: 邮箱号重复注册
+baseform 2021-06-05 18:20:05,403 [server.validators.base.baseform] [ERROR] :40: {'id': ['工号重复注册'], 'email': ['邮箱号重复注册']}

@@ -5,25 +5,35 @@
 # @Software: cmsDemo
 import logging
 
-from wtforms import StringField, PasswordField
-from wtforms.validators import DataRequired, Length, ValidationError
+from wtforms import StringField, PasswordField, IntegerField
+from wtforms.validators import DataRequired, Length, ValidationError, Email
 
-from models.users.users_model import UsersAuthModel, UsersInfoModel
-from server.validators.user_form_manage.base.baseForm import BaseUserForm
+from models.users.users_model import UsersAuthModel
+from server.validators.base.baseform import BaseForm as Form
 from utils.response_body.response_code_msg.response_code_msg import ResponseMessage
 
 logger = logging.getLogger(__name__)
 
 
-class CreateUserForm(BaseUserForm):
+class CreateUserForm(Form):
     """
     创建用户表单
     """
-    account_name = StringField(
+    id = StringField(
+        label="工号",
+        validators=[
+            DataRequired(message="没有输入工号"),
+            Length(min=8, max=8, message="工号长度为8位")
+        ]
+    )
+    is_admin = IntegerField(
+        label="是否为管理员"
+    )
+    username = StringField(
         label='账户',
         validators=[
             DataRequired(message="没有输入账号"),
-            Length(min=5, max=18, message='用户名长度必须大于%(min)d且小于%(max)d')
+            Length(min=1, max=18, message='用户名长度必须大于%(min)d且小于%(max)d')
         ]
     )
     password = PasswordField(
@@ -35,28 +45,25 @@ class CreateUserForm(BaseUserForm):
             #        message='密码至少8个字符，至少一个大写字母，1个小写字母，1个数字和一个特殊符号')
         ]
     )
+    email = StringField(
+        label='邮箱',
+        validators=[
+            DataRequired(message="没有输入邮箱"),
+            Email(message="邮箱不合法")
+        ]
+    )
 
-    def validate_account_name(self, value):
-        if UsersAuthModel.query.filter_by(account_name=value.data).first():
+    def validate_username(self, value):
+        if UsersAuthModel.query.filter_by(username=value.data).first():
             logger.error(ResponseMessage.UserIsExistsErr)
             raise ValidationError(ResponseMessage.UserIsExistsErr)
 
-    def validate_phone(self, value):
-        if UsersInfoModel.query.filter_by(phone=value.data).first():
-            logger.error(ResponseMessage.PhoneIsExistsErr)
-            raise ValidationError(ResponseMessage.PhoneIsExistsErr)
+    def validate_id(self, value):
+        if UsersAuthModel.query.filter_by(id=value.data).first():
+            logger.error(ResponseMessage.UserIdExistsErr)
+            raise ValidationError(ResponseMessage.UserIdExistsErr)
 
     def validate_email(self, value):
-        if UsersInfoModel.query.filter_by(email=value.data).first():
+        if UsersAuthModel.query.filter_by(email=value.data).first():
             logger.error(ResponseMessage.EmailIsExistsErr)
             raise ValidationError(ResponseMessage.EmailIsExistsErr)
-
-    def validate_identity_code(self, value):
-        if UsersInfoModel.query.filter_by(identity_code=value.data).first():
-            logger.error(ResponseMessage.IdentityCodeIsExistsErr)
-            raise ValidationError(ResponseMessage.IdentityCodeIsExistsErr)
-
-    # def validate_role_id(self, value):
-    #     if not RoleModel.query.filter_by(id=value.data).first():
-    #         logger.error(ResponseMessage.RoleIdIsNotExistsErr)
-    #         raise ValidationError(ResponseMessage.RoleIdIsNotExistsErr)

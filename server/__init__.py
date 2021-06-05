@@ -15,7 +15,9 @@ from flask_cors import CORS
 from globals.bp_v1_manage import bp_v1
 from server.config.settings import envs
 from models.base.base import db
-from models.users.users_model import UsersAuthModel, UsersInfoModel
+from models.users.users_model import UsersAuthModel
+from models.category.category_model import *
+from models.robot.robot_model import *
 
 
 def config_init(app, environ):

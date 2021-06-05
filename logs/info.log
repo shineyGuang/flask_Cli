@@ -1,119 +1,575 @@
-log 2021-06-03 19:46:36,463 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
-log 2021-06-03 19:46:36,463 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:36,668 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
-log 2021-06-03 19:46:36,668 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:36,673 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
-log 2021-06-03 19:46:36,674 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:36,677 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
-log 2021-06-03 19:46:36,678 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:36,798 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
-log 2021-06-03 19:46:36,799 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:36,811 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
-log 2021-06-03 19:46:36,812 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:36,814 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
-log 2021-06-03 19:46:36,814 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:44,985 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
-log 2021-06-03 19:46:44,985 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:44,985 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
-log 2021-06-03 19:46:44,985 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:44,985 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
-log 2021-06-03 19:46:44,985 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
-log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
-log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
-log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
-log 2021-06-03 19:46:45,000 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:55,029 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
-log 2021-06-03 19:46:55,029 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:55,029 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
-log 2021-06-03 19:46:55,029 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:55,045 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
-log 2021-06-03 19:46:55,045 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:55,045 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
-log 2021-06-03 19:46:55,045 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:55,060 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
-log 2021-06-03 19:46:55,060 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:55,076 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
-log 2021-06-03 19:46:55,076 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:46:55,076 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
-log 2021-06-03 19:46:55,076 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:14,547 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
-log 2021-06-03 19:48:14,547 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:14,609 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
-log 2021-06-03 19:48:14,609 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:14,609 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
-log 2021-06-03 19:48:14,609 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:14,609 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
-log 2021-06-03 19:48:14,609 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
-log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
-log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
-log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user_auth`
-log 2021-06-03 19:48:14,625 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:14,640 [sqlalchemy.engine.base.Engine] [INFO] :20: ROLLBACK
-log 2021-06-03 19:48:14,640 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user_info`
-log 2021-06-03 19:48:14,640 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:14,656 [sqlalchemy.engine.base.Engine] [INFO] :20: ROLLBACK
-log 2021-06-03 19:48:14,656 [sqlalchemy.engine.base.Engine] [INFO] :20: 
-CREATE TABLE user_auth (
+log 2021-06-05 17:33:39,511 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 17:33:39,511 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,512 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 17:33:39,513 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,522 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 17:33:39,522 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,523 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 17:33:39,523 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,527 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 17:33:39,527 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,528 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 17:33:39,528 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,529 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 17:33:39,529 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,530 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 17:33:39,530 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,532 [sqlalchemy.engine.base.Engine] [INFO] :20: ROLLBACK
+log 2021-06-05 17:33:39,532 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 17:33:39,532 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,533 [sqlalchemy.engine.base.Engine] [INFO] :20: ROLLBACK
+log 2021-06-05 17:33:39,534 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 17:33:39,534 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,535 [sqlalchemy.engine.base.Engine] [INFO] :20: ROLLBACK
+log 2021-06-05 17:33:39,535 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 17:33:39,536 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,537 [sqlalchemy.engine.base.Engine] [INFO] :20: ROLLBACK
+log 2021-06-05 17:33:39,537 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 17:33:39,537 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,538 [sqlalchemy.engine.base.Engine] [INFO] :20: ROLLBACK
+log 2021-06-05 17:33:39,540 [sqlalchemy.engine.base.Engine] [INFO] :20: 
+CREATE TABLE user (
 	update_time DATETIME DEFAULT now() COMMENT '修改时间', 
 	create_time DATETIME COMMENT '创建时间', 
 	status SMALLINT, 
-	id INTEGER NOT NULL AUTO_INCREMENT, 
-	user_id VARCHAR(8) NOT NULL COMMENT '工号', 
-	account_name VARCHAR(10) NOT NULL COMMENT '姓名', 
+	id INTEGER NOT NULL COMMENT '工号' AUTO_INCREMENT, 
+	is_admin SMALLINT, 
+	username VARCHAR(50) NOT NULL COMMENT '用户名', 
 	password VARCHAR(100), 
-	role_id INTEGER COMMENT '用户角色id', 
+	email VARCHAR(50) COMMENT '邮箱', 
 	PRIMARY KEY (id)
 )
 
 
-log 2021-06-03 19:48:14,656 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:15,265 [sqlalchemy.engine.base.Engine] [INFO] :20: COMMIT
-log 2021-06-03 19:48:15,281 [sqlalchemy.engine.base.Engine] [INFO] :20: 
-CREATE TABLE user_info (
+log 2021-06-05 17:33:39,540 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,571 [sqlalchemy.engine.base.Engine] [INFO] :20: COMMIT
+log 2021-06-05 17:33:39,572 [sqlalchemy.engine.base.Engine] [INFO] :20: 
+CREATE TABLE category (
 	update_time DATETIME DEFAULT now() COMMENT '修改时间', 
 	create_time DATETIME COMMENT '创建时间', 
 	status SMALLINT, 
 	role_row_data_id INTEGER COMMENT '角色and行数据', 
 	id INTEGER NOT NULL AUTO_INCREMENT, 
-	phone VARCHAR(12) COMMENT '手机号', 
-	identity_code VARCHAR(18) COMMENT '身份证号', 
-	gender VARCHAR(1), 
-	real_name VARCHAR(24) COMMENT '真实姓名', 
-	birthday DATE COMMENT '出生日期', 
-	email VARCHAR(64) COMMENT '邮箱', 
-	educational_type VARCHAR(1) COMMENT '教育程度', 
-	politic_countenance VARCHAR(2) COMMENT '政治面貌', 
-	is_marriage VARCHAR(1) COMMENT '婚否', 
-	account_id INTEGER COMMENT '用户id', 
+	name VARCHAR(50) NOT NULL COMMENT '分类名', 
 	PRIMARY KEY (id)
 )
 
 
-log 2021-06-03 19:48:15,281 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:15,790 [sqlalchemy.engine.base.Engine] [INFO] :20: COMMIT
-log 2021-06-03 19:48:21,110 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
-log 2021-06-03 19:48:21,110 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:21,126 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
-log 2021-06-03 19:48:21,126 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:21,126 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
-log 2021-06-03 19:48:21,126 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
-log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
-log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
-log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
-log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:21,142 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user_auth`
-log 2021-06-03 19:48:21,157 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
-log 2021-06-03 19:48:21,157 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user_info`
-log 2021-06-03 19:48:21,157 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,572 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,597 [sqlalchemy.engine.base.Engine] [INFO] :20: COMMIT
+log 2021-06-05 17:33:39,599 [sqlalchemy.engine.base.Engine] [INFO] :20: 
+CREATE TABLE robot_model (
+	update_time DATETIME DEFAULT now() COMMENT '修改时间', 
+	create_time DATETIME COMMENT '创建时间', 
+	status SMALLINT, 
+	role_row_data_id INTEGER COMMENT '角色and行数据', 
+	id INTEGER NOT NULL COMMENT '机器人id' AUTO_INCREMENT, 
+	name VARCHAR(50) NOT NULL COMMENT '机器人名称', 
+	pub_id INTEGER NOT NULL COMMENT '发布者', 
+	download_count INTEGER COMMENT '下载次数', 
+	image TEXT COMMENT '图标', 
+	category_id INTEGER NOT NULL COMMENT '类别id', 
+	PRIMARY KEY (id)
+)
+
+
+log 2021-06-05 17:33:39,599 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,621 [sqlalchemy.engine.base.Engine] [INFO] :20: COMMIT
+log 2021-06-05 17:33:39,623 [sqlalchemy.engine.base.Engine] [INFO] :20: 
+CREATE TABLE robot_details_model (
+	update_time DATETIME DEFAULT now() COMMENT '修改时间', 
+	create_time DATETIME COMMENT '创建时间', 
+	status SMALLINT, 
+	role_row_data_id INTEGER COMMENT '角色and行数据', 
+	id INTEGER NOT NULL COMMENT '机器人详情id' AUTO_INCREMENT, 
+	content TEXT COMMENT '机器人详情描述', 
+	cur_version VARCHAR(100) COMMENT '当前版本', 
+	video TEXT COMMENT '当前版本', 
+	robot_id INTEGER NOT NULL COMMENT '机器人id', 
+	PRIMARY KEY (id)
+)
+
+
+log 2021-06-05 17:33:39,623 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,645 [sqlalchemy.engine.base.Engine] [INFO] :20: COMMIT
+log 2021-06-05 17:33:39,646 [sqlalchemy.engine.base.Engine] [INFO] :20: 
+CREATE TABLE robot_update_model (
+	update_time DATETIME DEFAULT now() COMMENT '修改时间', 
+	create_time DATETIME COMMENT '创建时间', 
+	status SMALLINT, 
+	role_row_data_id INTEGER COMMENT '角色and行数据', 
+	id INTEGER NOT NULL COMMENT '更新id' AUTO_INCREMENT, 
+	robot_id INTEGER NOT NULL COMMENT '机器人id', 
+	version VARCHAR(50) NOT NULL COMMENT '版本', 
+	PRIMARY KEY (id)
+)
+
+
+log 2021-06-05 17:33:39,646 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:33:39,671 [sqlalchemy.engine.base.Engine] [INFO] :20: COMMIT
+log 2021-06-05 17:39:28,750 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 17:39:28,751 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:28,752 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 17:39:28,752 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:28,753 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 17:39:28,753 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:28,753 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 17:39:28,754 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:28,755 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 17:39:28,755 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:28,756 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 17:39:28,756 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:28,756 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 17:39:28,756 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:28,757 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 17:39:28,757 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:28,760 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 17:39:28,760 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:28,762 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 17:39:28,762 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:28,765 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 17:39:28,765 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:28,767 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 17:39:28,767 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:39,470 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 17:39:39,470 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:39,471 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 17:39:39,471 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:39,472 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 17:39:39,472 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:39,473 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 17:39:39,473 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:39,474 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 17:39:39,474 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:39,475 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 17:39:39,475 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:39,476 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 17:39:39,476 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:39,477 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 17:39:39,477 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:39,479 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 17:39:39,479 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:39,481 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 17:39:39,481 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:39,483 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 17:39:39,483 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:39,485 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 17:39:39,485 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:50,655 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 17:39:50,656 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:50,657 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 17:39:50,657 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:50,658 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 17:39:50,658 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:50,658 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 17:39:50,659 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:50,660 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 17:39:50,660 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:50,660 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 17:39:50,660 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:50,661 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 17:39:50,661 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:50,662 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 17:39:50,662 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:50,664 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 17:39:50,664 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:50,666 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 17:39:50,666 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:50,668 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 17:39:50,668 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 17:39:50,670 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 17:39:50,670 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:55,722 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 18:05:55,722 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:55,723 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 18:05:55,723 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:55,724 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 18:05:55,724 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:55,725 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 18:05:55,725 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:55,726 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:05:55,727 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:55,727 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:05:55,727 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:55,728 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 18:05:55,728 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:55,729 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 18:05:55,729 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:55,731 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 18:05:55,731 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:55,732 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 18:05:55,733 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:55,735 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 18:05:55,735 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:55,737 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 18:05:55,737 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+_internal 2021-06-05 18:05:55,755 [werkzeug] [INFO] :20:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+_internal 2021-06-05 18:05:55,759 [werkzeug] [INFO] :20:  * Restarting with stat
+log 2021-06-05 18:05:56,222 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 18:05:56,222 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:56,223 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 18:05:56,223 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:56,224 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 18:05:56,224 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:56,225 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 18:05:56,225 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:56,226 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:05:56,226 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:56,227 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:05:56,227 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:56,228 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 18:05:56,228 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:56,229 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 18:05:56,229 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:56,231 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 18:05:56,231 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:56,233 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 18:05:56,233 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:56,235 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 18:05:56,235 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:05:56,238 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 18:05:56,238 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+_internal 2021-06-05 18:05:56,253 [werkzeug] [WARNING] :30:  * Debugger is active!
+_internal 2021-06-05 18:05:56,267 [werkzeug] [INFO] :20:  * Debugger PIN: 375-300-915
+_internal 2021-06-05 18:10:41,403 [werkzeug] [INFO] :20: 127.0.0.1 - - [05/Jun/2021 18:10:41] "[33mPOST /api/v1/register HTTP/1.1[0m" 404 -
+_internal 2021-06-05 18:11:29,322 [werkzeug] [INFO] :20:  * Detected change in '/Users/fightman/Desktop/工作项目/cmsDemo/server/api/v1/__init__.py', reloading
+_internal 2021-06-05 18:11:29,390 [werkzeug] [INFO] :20:  * Restarting with stat
+log 2021-06-05 18:11:30,275 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 18:11:30,276 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:11:30,277 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 18:11:30,277 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:11:30,277 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 18:11:30,278 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:11:30,278 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 18:11:30,278 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:11:30,279 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:11:30,279 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:11:30,280 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:11:30,280 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:11:30,280 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 18:11:30,281 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:11:30,281 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 18:11:30,281 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:11:30,283 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 18:11:30,284 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:11:30,286 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 18:11:30,286 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:11:30,288 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 18:11:30,288 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:11:30,289 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 18:11:30,290 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+_internal 2021-06-05 18:11:30,307 [werkzeug] [WARNING] :30:  * Debugger is active!
+_internal 2021-06-05 18:11:30,321 [werkzeug] [INFO] :20:  * Debugger PIN: 375-300-915
+log 2021-06-05 18:11:35,597 [sqlalchemy.engine.base.Engine] [INFO] :20: BEGIN (implicit)
+log 2021-06-05 18:11:35,598 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.id = %(id_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:11:35,598 [sqlalchemy.engine.base.Engine] [INFO] :20: {'id_1': '20019236', 'param_1': 1}
+log 2021-06-05 18:11:35,602 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.username = %(username_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:11:35,602 [sqlalchemy.engine.base.Engine] [INFO] :20: {'username_1': '赵晨光', 'param_1': 1}
+log 2021-06-05 18:11:35,603 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:11:35,603 [sqlalchemy.engine.base.Engine] [INFO] :20: {'email_1': '20019236@cnsuning.com', 'param_1': 1}
+baseform 2021-06-05 18:11:35,604 [server.validators.base.baseform] [ERROR] :40: {'username': ['用户名长度必须大于5且小于18']}
+log 2021-06-05 18:11:35,605 [sqlalchemy.engine.base.Engine] [INFO] :20: COMMIT
+_internal 2021-06-05 18:11:35,606 [werkzeug] [INFO] :20: 127.0.0.1 - - [05/Jun/2021 18:11:35] "POST /api/v1/register HTTP/1.1" 200 -
+_internal 2021-06-05 18:12:15,196 [werkzeug] [INFO] :20:  * Detected change in '/Users/fightman/Desktop/工作项目/cmsDemo/server/validators/user_form_manage/register_form/registerForm.py', reloading
+_internal 2021-06-05 18:12:15,263 [werkzeug] [INFO] :20:  * Restarting with stat
+log 2021-06-05 18:12:15,770 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 18:12:15,770 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:12:15,772 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 18:12:15,772 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:12:15,773 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 18:12:15,773 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:12:15,773 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 18:12:15,774 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:12:15,775 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:12:15,775 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:12:15,775 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:12:15,775 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:12:15,776 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 18:12:15,776 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:12:15,777 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 18:12:15,777 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:12:15,779 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 18:12:15,779 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:12:15,781 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 18:12:15,781 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:12:15,784 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 18:12:15,784 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:12:15,786 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 18:12:15,786 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+_internal 2021-06-05 18:12:15,803 [werkzeug] [WARNING] :30:  * Debugger is active!
+_internal 2021-06-05 18:12:15,813 [werkzeug] [INFO] :20:  * Debugger PIN: 375-300-915
+log 2021-06-05 18:12:21,000 [sqlalchemy.engine.base.Engine] [INFO] :20: BEGIN (implicit)
+log 2021-06-05 18:12:21,002 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.id = %(id_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:12:21,002 [sqlalchemy.engine.base.Engine] [INFO] :20: {'id_1': '20019236', 'param_1': 1}
+log 2021-06-05 18:12:21,004 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.username = %(username_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:12:21,004 [sqlalchemy.engine.base.Engine] [INFO] :20: {'username_1': '赵晨光', 'param_1': 1}
+log 2021-06-05 18:12:21,005 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:12:21,006 [sqlalchemy.engine.base.Engine] [INFO] :20: {'email_1': '20019236@cnsuning.com', 'param_1': 1}
+log 2021-06-05 18:12:21,205 [sqlalchemy.engine.base.Engine] [INFO] :20: INSERT INTO user (create_time, status, id, is_admin, username, password, email) VALUES (%(create_time)s, %(status)s, %(id)s, %(is_admin)s, %(username)s, %(password)s, %(email)s)
+log 2021-06-05 18:12:21,206 [sqlalchemy.engine.base.Engine] [INFO] :20: {'create_time': datetime.datetime(2021, 6, 5, 18, 12, 21, 6754), 'status': 1, 'id': '20019236', 'is_admin': 1, 'username': '赵晨光', 'password': 'pbkdf2:sha256:260000$DIiNZdTv9rfzYmC5$d6fe0394c93db92bbc90621af8488095e0c2ea9aa91da3c2b35303e072b1df31', 'email': '20019236@cnsuning.com'}
+log 2021-06-05 18:12:21,209 [sqlalchemy.engine.base.Engine] [INFO] :20: ROLLBACK
+_internal 2021-06-05 18:12:21,210 [werkzeug] [INFO] :20: 127.0.0.1 - - [05/Jun/2021 18:12:21] "POST /api/v1/register HTTP/1.1" 200 -
+_internal 2021-06-05 18:13:54,732 [werkzeug] [INFO] :20:  * Detected change in '/Users/fightman/Desktop/工作项目/cmsDemo/models/users/users_model.py', reloading
+_internal 2021-06-05 18:13:54,806 [werkzeug] [INFO] :20:  * Restarting with stat
+log 2021-06-05 18:13:55,619 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 18:13:55,619 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:13:55,621 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 18:13:55,621 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:13:55,622 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 18:13:55,623 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:13:55,623 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 18:13:55,623 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:13:55,625 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:13:55,625 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:13:55,625 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:13:55,626 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:13:55,626 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 18:13:55,626 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:13:55,627 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 18:13:55,627 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:13:55,629 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 18:13:55,629 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:13:55,631 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 18:13:55,631 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:13:55,633 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 18:13:55,634 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:13:55,635 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 18:13:55,636 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+_internal 2021-06-05 18:13:55,656 [werkzeug] [WARNING] :30:  * Debugger is active!
+_internal 2021-06-05 18:13:55,668 [werkzeug] [INFO] :20:  * Debugger PIN: 375-300-915
+_internal 2021-06-05 18:14:49,743 [werkzeug] [INFO] :20:  * Detected change in '/Users/fightman/Desktop/工作项目/cmsDemo/server/api/v1/user_manage/register/register.py', reloading
+_internal 2021-06-05 18:14:49,813 [werkzeug] [INFO] :20:  * Restarting with stat
+log 2021-06-05 18:14:50,496 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 18:14:50,496 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:14:50,497 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 18:14:50,497 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:14:50,498 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 18:14:50,498 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:14:50,499 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 18:14:50,500 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:14:50,501 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:14:50,501 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:14:50,502 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:14:50,502 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:14:50,503 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 18:14:50,503 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:14:50,504 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 18:14:50,504 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:14:50,506 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 18:14:50,507 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:14:50,508 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 18:14:50,508 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:14:50,511 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 18:14:50,511 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:14:50,513 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 18:14:50,513 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+_internal 2021-06-05 18:14:50,530 [werkzeug] [WARNING] :30:  * Debugger is active!
+_internal 2021-06-05 18:14:50,541 [werkzeug] [INFO] :20:  * Debugger PIN: 375-300-915
+log 2021-06-05 18:16:41,515 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 18:16:41,515 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:16:41,516 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 18:16:41,516 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:16:41,517 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 18:16:41,517 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:16:41,517 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 18:16:41,518 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:16:41,519 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:16:41,519 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:16:41,520 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:16:41,520 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:16:41,521 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 18:16:41,521 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:16:41,522 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 18:16:41,522 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:16:41,528 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 18:16:41,528 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:16:41,530 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 18:16:41,530 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:16:41,532 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 18:16:41,533 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:16:41,534 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 18:16:41,535 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:12,053 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 18:17:12,053 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:12,054 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 18:17:12,054 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:12,055 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 18:17:12,055 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:12,056 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 18:17:12,056 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:12,057 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:17:12,057 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:12,057 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:17:12,058 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:12,058 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 18:17:12,058 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:12,059 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 18:17:12,059 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:12,061 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 18:17:12,061 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:12,063 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 18:17:12,064 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:12,066 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 18:17:12,066 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:12,068 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 18:17:12,068 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,300 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 18:17:39,300 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,301 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 18:17:39,302 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,302 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 18:17:39,302 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,303 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 18:17:39,303 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,304 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:17:39,304 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,305 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:17:39,305 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,306 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 18:17:39,306 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,307 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 18:17:39,307 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,309 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 18:17:39,309 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,311 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 18:17:39,311 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,313 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 18:17:39,313 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,314 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 18:17:39,315 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+_internal 2021-06-05 18:17:39,331 [werkzeug] [INFO] :20:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+_internal 2021-06-05 18:17:39,333 [werkzeug] [INFO] :20:  * Restarting with stat
+log 2021-06-05 18:17:39,793 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 18:17:39,794 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,795 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 18:17:39,795 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,796 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 18:17:39,796 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,797 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 18:17:39,797 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,798 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:17:39,798 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,799 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:17:39,799 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,799 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 18:17:39,800 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,800 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 18:17:39,800 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,802 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 18:17:39,802 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,804 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 18:17:39,804 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,806 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 18:17:39,806 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:17:39,807 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 18:17:39,808 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+_internal 2021-06-05 18:17:39,823 [werkzeug] [WARNING] :30:  * Debugger is active!
+_internal 2021-06-05 18:17:39,834 [werkzeug] [INFO] :20:  * Debugger PIN: 375-300-915
+log 2021-06-05 18:17:45,616 [sqlalchemy.engine.base.Engine] [INFO] :20: BEGIN (implicit)
+log 2021-06-05 18:17:45,618 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.id = %(id_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:17:45,618 [sqlalchemy.engine.base.Engine] [INFO] :20: {'id_1': '20019236', 'param_1': 1}
+log 2021-06-05 18:17:45,621 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.username = %(username_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:17:45,622 [sqlalchemy.engine.base.Engine] [INFO] :20: {'username_1': '赵晨光', 'param_1': 1}
+log 2021-06-05 18:17:45,624 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:17:45,624 [sqlalchemy.engine.base.Engine] [INFO] :20: {'email_1': '20019236@cnsuning.com', 'param_1': 1}
+log 2021-06-05 18:17:45,811 [sqlalchemy.engine.base.Engine] [INFO] :20: INSERT INTO user (create_time, status, id, is_admin, username, password, email) VALUES (%(create_time)s, %(status)s, %(id)s, %(is_admin)s, %(username)s, %(password)s, %(email)s)
+log 2021-06-05 18:17:45,811 [sqlalchemy.engine.base.Engine] [INFO] :20: {'create_time': datetime.datetime(2021, 6, 5, 18, 17, 45, 624997), 'status': 1, 'id': '20019236', 'is_admin': 1, 'username': '赵晨光', 'password': 'pbkdf2:sha256:260000$xieIrob3ObGxicrg$74f10f4f2a7184ef30642f0db54aed87ceabca2b5308dc66f3049a431b087c04', 'email': '20019236@cnsuning.com'}
+log 2021-06-05 18:17:45,814 [sqlalchemy.engine.base.Engine] [INFO] :20: COMMIT
+_internal 2021-06-05 18:17:45,816 [werkzeug] [INFO] :20: 127.0.0.1 - - [05/Jun/2021 18:17:45] "POST /api/v1/register HTTP/1.1" 200 -
+log 2021-06-05 18:18:38,328 [sqlalchemy.engine.base.Engine] [INFO] :20: BEGIN (implicit)
+log 2021-06-05 18:18:38,330 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.id = %(id_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:18:38,330 [sqlalchemy.engine.base.Engine] [INFO] :20: {'id_1': '20019236', 'param_1': 1}
+registerForm 2021-06-05 18:18:38,335 [server.validators.user_form_manage.register_form.registerForm] [ERROR] :40: 手机号重复注册
+log 2021-06-05 18:18:38,336 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.username = %(username_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:18:38,336 [sqlalchemy.engine.base.Engine] [INFO] :20: {'username_1': '李艋', 'param_1': 1}
+log 2021-06-05 18:18:38,337 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:18:38,337 [sqlalchemy.engine.base.Engine] [INFO] :20: {'email_1': '20019236@cnsuning.com', 'param_1': 1}
+registerForm 2021-06-05 18:18:38,338 [server.validators.user_form_manage.register_form.registerForm] [ERROR] :40: 邮箱号重复注册
+baseform 2021-06-05 18:18:38,338 [server.validators.base.baseform] [ERROR] :40: {'id': ['手机号重复注册'], 'email': ['邮箱号重复注册']}
+log 2021-06-05 18:18:38,339 [sqlalchemy.engine.base.Engine] [INFO] :20: COMMIT
+_internal 2021-06-05 18:18:38,340 [werkzeug] [INFO] :20: 127.0.0.1 - - [05/Jun/2021 18:18:38] "POST /api/v1/register HTTP/1.1" 200 -
+_internal 2021-06-05 18:19:58,481 [werkzeug] [INFO] :20:  * Detected change in '/Users/fightman/Desktop/工作项目/cmsDemo/utils/response_body/response_code_msg/response_code_msg.py', reloading
+_internal 2021-06-05 18:19:58,549 [werkzeug] [INFO] :20:  * Restarting with stat
+log 2021-06-05 18:19:59,095 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'sql_mode'
+log 2021-06-05 18:19:59,095 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:19:59,096 [sqlalchemy.engine.base.Engine] [INFO] :20: SHOW VARIABLES LIKE 'lower_case_table_names'
+log 2021-06-05 18:19:59,096 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:19:59,098 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT DATABASE()
+log 2021-06-05 18:19:59,098 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:19:59,099 [sqlalchemy.engine.base.Engine] [INFO] :20: show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+log 2021-06-05 18:19:59,100 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:19:59,101 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:19:59,101 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:19:59,101 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+log 2021-06-05 18:19:59,102 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:19:59,102 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+log 2021-06-05 18:19:59,103 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:19:59,104 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `user`
+log 2021-06-05 18:19:59,104 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:19:59,106 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `category`
+log 2021-06-05 18:19:59,106 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:19:59,109 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_model`
+log 2021-06-05 18:19:59,109 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:19:59,111 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_details_model`
+log 2021-06-05 18:19:59,111 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+log 2021-06-05 18:19:59,113 [sqlalchemy.engine.base.Engine] [INFO] :20: DESCRIBE `robot_update_model`
+log 2021-06-05 18:19:59,113 [sqlalchemy.engine.base.Engine] [INFO] :20: {}
+_internal 2021-06-05 18:19:59,130 [werkzeug] [WARNING] :30:  * Debugger is active!
+_internal 2021-06-05 18:19:59,141 [werkzeug] [INFO] :20:  * Debugger PIN: 375-300-915
+log 2021-06-05 18:20:05,397 [sqlalchemy.engine.base.Engine] [INFO] :20: BEGIN (implicit)
+log 2021-06-05 18:20:05,398 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.id = %(id_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:20:05,398 [sqlalchemy.engine.base.Engine] [INFO] :20: {'id_1': '20019236', 'param_1': 1}
+registerForm 2021-06-05 18:20:05,399 [server.validators.user_form_manage.register_form.registerForm] [ERROR] :40: 工号重复注册
+log 2021-06-05 18:20:05,400 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.username = %(username_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:20:05,401 [sqlalchemy.engine.base.Engine] [INFO] :20: {'username_1': '李艋', 'param_1': 1}
+log 2021-06-05 18:20:05,402 [sqlalchemy.engine.base.Engine] [INFO] :20: SELECT user.password AS user_password, user.update_time AS user_update_time, user.create_time AS user_create_time, user.status AS user_status, user.id AS user_id, user.is_admin AS user_is_admin, user.username AS user_username, user.email AS user_email 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s
+log 2021-06-05 18:20:05,402 [sqlalchemy.engine.base.Engine] [INFO] :20: {'email_1': '20019236@cnsuning.com', 'param_1': 1}
+registerForm 2021-06-05 18:20:05,403 [server.validators.user_form_manage.register_form.registerForm] [ERROR] :40: 邮箱号重复注册
+baseform 2021-06-05 18:20:05,403 [server.validators.base.baseform] [ERROR] :40: {'id': ['工号重复注册'], 'email': ['邮箱号重复注册']}
+log 2021-06-05 18:20:05,404 [sqlalchemy.engine.base.Engine] [INFO] :20: COMMIT
+_internal 2021-06-05 18:20:05,405 [werkzeug] [INFO] :20: 127.0.0.1 - - [05/Jun/2021 18:20:05] "POST /api/v1/register HTTP/1.1" 200 -

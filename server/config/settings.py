@@ -57,10 +57,10 @@ class DevConfig(Config):
 
     # MySQL
     DB_USERNAME = "root"
-    DB_PASSWORD = "Zcg123"
+    DB_PASSWORD = ""
     DB_HOST = "127.0.0.1"
     DB_PORT = 3306
-    DB_NAME = "back_db"
+    DB_NAME = "cms_db"
     DB_URI = "mysql+pymysql://%s:%s@%s:%s/%s?charset=utf8" % (
         DB_USERNAME,
         DB_PASSWORD,

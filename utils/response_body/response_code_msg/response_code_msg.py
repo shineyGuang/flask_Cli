@@ -72,6 +72,7 @@ class ResponseMessage(object):
     # 数据
     DataRoleIsNotExistsErr = "当前角色没有分配数据权限"
     # 用户
+    UserIdExistsErr = "工号重复注册"
     UserIsExistsErr = "用户名重复注册"
     PhoneIsExistsErr = "手机号重复注册"
     EmailIsExistsErr = "邮箱号重复注册"
