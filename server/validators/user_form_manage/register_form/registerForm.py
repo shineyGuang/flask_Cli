@@ -19,7 +19,7 @@ class CreateUserForm(Form):
     """
     创建用户表单
     """
-    id = StringField(
+    user_id = StringField(
         label="工号",
         validators=[
             DataRequired(message="没有输入工号"),
@@ -58,8 +58,8 @@ class CreateUserForm(Form):
             logger.error(ResponseMessage.UserIsExistsErr)
             raise ValidationError(ResponseMessage.UserIsExistsErr)
 
-    def validate_id(self, value):
-        if UsersAuthModel.query.filter_by(id=value.data).first():
+    def validate_user_id(self, value):
+        if UsersAuthModel.query.filter_by(user_id=value.data).first():
             logger.error(ResponseMessage.UserIdExistsErr)
             raise ValidationError(ResponseMessage.UserIdExistsErr)
 

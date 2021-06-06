@@ -17,7 +17,8 @@ class RobotModel(BaseDataModel):
     pub_id = Column(Integer, nullable=False, comment="发布者")
     download_count = Column(Integer, nullable=True, comment="下载次数")
     image = Column(Text, nullable=True, comment="图标")
-    category_id = Column(Integer, nullable=False, comment="类别id")
+    oss_url = Column(Text, nullable=False, comment="Oss下载地址")
+    category_id = Column(Integer, nullable=False, default=3, comment="类别id")
 
     def keys(self):
         return ["id", "name", "pub_id", "download_count", "image", "category_id", "create_time", "update_time"]

@@ -20,7 +20,8 @@ class UsersAuthModel(Base):
     USER 用户表
     """
     __tablename__ = "user"
-    id = Column(Integer, primary_key=True, comment="工号")
+    id = Column(Integer, primary_key=True)
+    user_id = Column(String(8), nullable=False, comment="工号")
     is_admin = Column(SmallInteger, default=0)
     username = Column(String(50), nullable=False, comment="用户名")
     _password = Column("password", Text)
@@ -42,9 +43,9 @@ class UsersAuthModel(Base):
 
     @staticmethod
     def verify(auth_data):
-        username = auth_data["username"]
+        user_id = auth_data["user_id"]
         password = auth_data["password"]
-        auth_user_obj = UsersAuthModel.query.filter_by(username=username).first()
+        auth_user_obj = UsersAuthModel.query.filter_by(user_id=user_id).first()
         if not auth_user_obj:
             raise AuthFailed(message=ResponseMessage.NotFondUserErr)
         if not auth_user_obj.check_password(password):
@@ -53,7 +54,7 @@ class UsersAuthModel(Base):
             "time_stamp": int(time.time()),
             "username": auth_user_obj.username,
             # "role_id": auth_user_obj.role_id,
-            "id": auth_user_obj.id
+            "user_id": auth_user_obj.user_id
         }
         return user_sign
 

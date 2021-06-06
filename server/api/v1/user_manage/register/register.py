@@ -28,7 +28,7 @@ class UserRegisterView(Service):
         user_auth.password = form.password.data
         user_auth.is_admin = form.is_admin.data
         user_auth.email = form.email.data
-        user_auth.id = form.id.data
+        user_auth.user_id = form.user_id.data
         db.session.add(user_auth)
         try:
             db.session.commit()

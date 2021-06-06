@@ -79,6 +79,7 @@ class ResponseMessage(object):
     IdentityCodeIsExistsErr = "身份证号重复注册"
     CreateUserFail = "创建用户失败"
     UserRepeatLoginErr = "当前用户在其他地方登陆，请重新登陆"
+    RobotNameIsExistsErr = "当前注册机器人已存在"
     # 设备
     EquipmentRegisterSuccess = "当前设备注册信息成功"
     ExistDeleteErr = "当前有{}条数据无法删除，这些数据下已存在绑定关系。"
