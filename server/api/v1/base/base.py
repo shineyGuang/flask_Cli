@@ -28,7 +28,6 @@ class BaseQuery(object):
         :param data:
         :return:
         """
-
         return data
 
     def _find_by_page(self, pageNum, pageSize, query, by):
@@ -86,8 +85,8 @@ class BaseQuery(object):
 
     def parse_data(self, data):
         try:
-            search_key_list = self.__model__().keys()
-        except:
+            search_key_list = self.__model__().keys
+        except Exception as e:
             search_key_list = []
         if data:
             if isinstance(data, (list, tuple)):

@@ -16,6 +16,7 @@ class CategoryModel(BaseDataModel):
     id = Column(Integer, primary_key=True)
     name = Column(String(50), nullable=False, comment="分类名")
 
+    @property
     def keys(self):
         return ["id", "name", "create_time", "update_time"]
 

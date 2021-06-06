@@ -20,6 +20,7 @@ class RobotModel(BaseDataModel):
     oss_url = Column(Text, nullable=False, comment="Oss下载地址")
     category_id = Column(Integer, nullable=False, default=3, comment="类别id")
 
+    @property
     def keys(self):
         return ["id", "name", "pub_id", "download_count", "image", "category_id", "create_time", "update_time"]
 
@@ -37,6 +38,7 @@ class RobotDetailsModel(BaseDataModel):
     video = Column(Text, nullable=True, comment="当前版本")
     robot_id = Column(Integer, nullable=False, comment="机器人id")
 
+    @property
     def keys(self):
         return ["id", "content", "cur_version", "video", "robot_id", "create_time", "update_time"]
 
@@ -49,5 +51,6 @@ class RobotUpdateModel(BaseDataModel):
     robot_id = Column(Integer, nullable=False, comment="机器人id")
     version = Column(String(50), nullable=False, comment="版本")
 
+    @property
     def keys(self):
         return ["id", "robot_id", "version", "create_time", "update_time"]
